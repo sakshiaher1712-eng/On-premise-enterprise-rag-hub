@@ -1,0 +1,12 @@
+# Python environment logs
+.venv/
+__pycache__/
+*.pyc
+
+# Local secure databases (MNCs want to make sure you never expose data to GitHub)
+chroma_db/
+data/
+
+# OS environment specific files
+.DS_Store
+Thumbs.db
